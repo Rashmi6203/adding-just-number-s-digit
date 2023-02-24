@@ -1,0 +1,16 @@
+q=int(input('Enter a 3 digit number:'))
+# q stores a 3 digit no.
+a=q%10
+#a stores the last digit of that 3 digit no.
+b=q//10
+# b stores the 2 digit except the last digit.
+c=b%10
+#c stores the 2nd digit of the 3 digit no.
+e=b//10
+# e stores the 1st digit of the 3 digit no.
+print(a)
+print(b)
+print(c)
+print(e)
+y=a+c+e
+print(y)
